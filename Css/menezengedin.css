@@ -1,0 +1,446 @@
+div.navigation-bar {
+    background-color: #f2f2f2;
+    margin-top: 48px;
+    padding: 18px 0;
+    font-weight: 500;
+    font-size: 13.09px;
+    color: #878787;
+}
+.wrapper {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+ol, ul {
+    list-style: none;
+}
+div.navigation-bar ul li {
+    display: inline-block;
+}
+
+li {
+    line-height: 1.6 !important;
+}
+div.navigation-bar ul li.seperator {
+    margin: 0 9.5px;
+}
+div.navigation-bar ul li.active {
+    color: #0086cd;
+}
+#appeal {
+    padding-top: 42px;
+    padding-bottom: 228px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.top {
+    -ms-flex-align: start;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+
+.flexbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.appeal-menu {
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 2.424px 4.373px 17px 0px rgba(0, 0, 0, 0.14);
+    padding: 40px 38px;
+    width: 24%;
+}
+.appeal-menu > ul {
+    height: 335px;
+}
+.appeal-menu > ul > li {
+    padding: 15px 0;
+}
+.appeal-menu > ul > li.active a {
+    color: #0086cd;
+    border-bottom: 1px solid #0086cd;
+}
+
+.appeal-menu > ul > li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    font-weight: bold;
+}
+#appeal .content {
+    width: 60%;
+    margin-left: 72px;
+}
+#appeal .content h1 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 4px;
+}
+
+h1, h2 {
+    line-height: 1.3 !important;
+}
+#appeal .content p {
+    color: #6f6f6f;
+    line-height: 26px;
+    font-size: 16px;
+    margin-top: 31px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+p {
+    line-height: 1.5 !important;
+}
+#appeal .appeal-contact {
+    margin-top: 29px;
+    padding: 40px 20px;
+    width: 115%;
+    border-radius: 8px;
+    border: 1px solid #cdcdcd;
+}
+.flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.between {
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+#appeal .appeal-contact .input-wrapper {
+    width: 45%;
+    margin-top: 43px;
+    position: relative;
+}
+#appeal .appeal-contact .input-wrapper input.input-style {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    font-size: 18.75px;
+    font-family: visby_cflight;
+}
+
+#appeal .appeal-contact .input-wrapper .input-control {
+    width: 100%;
+    padding: 14px 0;
+}
+#appeal .third-link .appeal-contact input {
+    transition: all .2s;
+}
+#appeal .appeal-contact .input-wrapper input {
+    transition: all .2s;
+}
+.input-wrapper input {
+    transition: .2s ease;
+    box-sizing: border-box;
+}
+*, button, input {
+    outline: none;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.input-wrapper input.validate:not([data-has-focus="false"]):hover, .input-wrapper input.validate:not([data-has-focus="false"]):focus {
+    background: #f2f2f2 !important;
+    padding-left: 8px !important;
+}
+#appeal .appeal-contact .input-wrapper span.underline {
+    position: relative;
+    height: 0;
+    bottom: 2px;
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #0175b3;
+    transition: 0.2s ease-in;
+}
+#appeal .appeal-contact .input-wrapper .info {
+    font-size: 12px;
+    color: #bebebe;
+    margin-top: 13px;
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+#appeal .appeal-contact .input-wrapper .info .fa {
+    margin-right: 4px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.phone-input {
+    align-self: flex-start;
+}
+.phone-input-holder {
+    position: relative;
+    width: 100%;
+}
+.phone-input .phone-prefix {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 3;
+}
+.phone-input .phone-prefix select {
+    font-size: 18.75px;
+    padding: 13px 0;
+    border: none;
+    text-indent: 1px;
+    text-overflow: '';
+    height: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 10px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+.phone-value {
+    position: relative;
+    width: 100%;
+}
+.phone-value input, .phone-value input:focus {
+    padding-left: 50px !important;
+}
+#appeal .third-link .appeal-contact input:hover {
+    background: #f2f2f2;
+    padding-left: 8px;
+}
+#appeal .third-link .choose-question {
+    background: #f2f2f2;
+}
+
+.choose-question {
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    cursor: pointer;
+}
+#appeal .third-link .choose-question .option, #appeal .third-link .choose-question .option-header {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.choose-question .option, .choose-question .option-header {
+    padding: 16px 0px;
+    font-size: 18.75px;
+    color: #6f6f6f;
+    position: relative;
+}
+.choose-question .option-target {
+    line-height: 18.75px;
+}
+.choose-question .caret {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+#appeal .third-link .choose-question > ul {
+    background: #f2f2f2;
+    border: 0;
+}
+
+.choose-question > ul {
+    position: absolute;
+    background: #fff;
+    border-bottom: 3px solid #ddd;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+}
+#appeal .third-link .choose-question .option, #appeal .third-link .choose-question .option-header {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: #F2F2F2;
+    font-size: 18px;
+}
+
+.choose-question .option, .choose-question .option-header {
+    width: 100%;
+    font-size: 18.75px;
+    color: #6f6f6f;
+    position: relative;
+}
+#appeal .appeal-contact .input-wrapper .input-control {
+    width: 100%;
+    padding: 14px 0;
+}
+.button-blue {
+    background-color: #0086cd;
+    text-transform: none;
+    transition: .2s ease;
+}
+
+.button-style {
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 46px;
+    border: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+#appeal-send:hover {
+    background-color: #0086CD !important;
+    padding-left: 0 !important;
+    cursor: pointer;
+}
+.rengli {
+    background-color: #393939;
+}
+.h3 {
+    width: 25%;
+    margin: auto;
+    padding: 55px 0px;
+}
+.coxlu {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    width: 1070px;
+    margin: 0 auto;
+}
+.hamisi {
+    font-weight: bold;
+    height: 187px;
+    width: 31.7%;
+    border-radius: 8px;
+    margin-bottom: 23px;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in;
+    white-space: pre-line;
+    font-family: visby_cfextra_bold;
+    color: #fff;
+    padding: 0 39px;
+    font-size: 28px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+}
+.tek1 {
+    background-color: #ffc90a;
+    background-image: url(https://code.edu.az/public/images/icons/web_graphics.png);
+    background-position: 159px 44px;
+}
+.tek2 {
+    background-color: #873996;
+    background-image: url(https://code.edu.az/public/images/icons/digital_media.png);
+    background-position: 133px 40px;
+}
+.tek3 {
+    background-color: #0086cd;
+    background-image: url(https://code.edu.az/public/images/icons/programming.png);
+    background-position: 159px 44px;
+}
+.tek4 {
+    background-color: #00a65a;
+    background-image: url(https://code.edu.az/public/images/icons/system_administration.png);
+    background-position: 120px 38px;
+}
+.tek5 {
+    background-color: #ec3824;
+    background-image: url(https://code.edu.az/public/images/icons/ms_office.png);
+    background-position: 172px 33px;
+}
+.tek6 {
+    background-color: #f0812b;
+    background-image: url(https://code.edu.az/public/images/icons/3d_modelling.png);
+    background-position: 162px 23px;
+}
+.hamisi:hover {
+    width: 33%;
+    height: 200px;
+}
+h1 {
+    font-weight: bolder;
+    color: white;
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+#appeal .appeal-contact .input-wrapper .time-left-icon {
+    position: absolute;
+    top: 18px;
+    left: 7px;
+    font-size: 18px;
+    color: #bebebe;
+    cursor: pointer;
+}
+#appeal .appeal-contact .input-wrapper .time, #appeal .appeal-contact .input-wrapper .date {
+    padding-left: 30px !important;
+    cursor: pointer;
+}
+#appeal .appeal-contact .input-wrapper input.input-style {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    font-size: 18.75px;
+    font-family: visby_cflight;
+}

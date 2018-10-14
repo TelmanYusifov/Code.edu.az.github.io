@@ -1,0 +1,340 @@
+.contact {
+    position: relative;
+    transition: 0.3s ease-in;
+    margin-top: 370px;
+    padding: 72px 0;
+}
+.cont {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.contract {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.arxaplan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.arxaplan>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.plan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.14);
+    left: 0;
+    top: 0;
+}
+.inputyer {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.yuxarisi>h2 {
+    font-size: 28.14px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+.yuxarisi span {
+    color: #ec3824;
+}
+.formhisse {
+    background-color: #fff;
+    margin-top: 52px;
+    width: 550px;
+    border-radius: 8px;
+    padding: 25px 40px;
+    box-sizing: border-box;
+}
+.helpme {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+.adiniz {
+    width: 45%;
+    margin-bottom: 43px;
+    position: relative;
+}
+#esasad {
+    border: none;
+    border-bottom: 3px solid #ddd;
+    font-size: 18.75px;
+    background: transparent;
+    width: 100%;
+    padding: 14px 0;
+    transition: .2s ease;
+    box-sizing: border-box;
+    outline: none;
+    line-height: inherit;
+}
+.asagixett {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    display: block;
+    width: 0;
+    background-color: #0175b3;
+    transition: 0.2s ease-in;
+}
+.nomre {
+    align-self: flex-start;
+    display: flex;
+}
+.nomreniz {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.nomreevveli {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 3;
+}
+.nomreevveli select {
+    font-size: 18.75px;
+    border: none;
+    text-indent: 1px;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-appearance: none;
+    padding: 0 10px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    line-height: inherit;
+    text-transform: none;
+    outline: none;
+}
+.nomresonrasi {
+    position: relative;
+    width: 100%;
+}
+.esasad:active {
+    background-color: #6f6f6f;
+}
+#nomreyazin {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #ddd;
+    font-size: 18.75px;
+    width: 100%;
+    padding: 14px 0;
+    padding-left: 50px;
+    transition: .2s ease;
+    box-sizing: border-box;
+    outline: none;
+    line-height: inherit;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+.access {
+    align-items: flex-end;
+    display: flex;
+}
+#gonder {
+    width: 100%;
+    padding: 14px 0;
+    pointer-events: none;
+    opacity: 0.5;
+    transition: .2s ease;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #0086cd;
+    text-transform: none;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    outline: none;
+    line-height: inherit;
+    margin: 0;
+    font: inherit;
+}
+footer {
+    padding: 78px 0;
+    position: relative;
+    background-color: #fff;
+    display: block;
+}
+.ilkfoot {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.kontayner {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.siralar {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width:992px) {
+    .col-md-3 {
+        width: 25%;
+        float: left;
+    }
+    .col-md-9 {
+        width: 75%;
+        float: left;
+    }
+}
+.col-md-3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+.col-md-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+.fot {
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+.fot>li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    line-height: 1.6 !important;
+}
+.fot>li>h3 {
+    font-size: 18.75px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+li {
+    line-height: 1.6 !important;
+}
+.fot>li>ul>li {
+    display: block;
+    margin-bottom: 22px;
+}
+.fot>li>ul>li>a {
+    color: #6f6f6f;
+    padding-bottom: 3px;
+    border-bottom: 1px solid transparent;
+    transition: .2s ease;
+}
+.fot>li>ul>li>a:hover {
+    border-color: #6f6f6f;
+}
+.sagkon {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin-left: auto;
+    font-size: 15px;
+    color: #6f6f6f;
+    letter-spacing: 1px;
+}
+.sagkon>h3 {
+    font-size: 18.75px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #000;
+}
+.sagkon>address {
+    line-height: 28px;;
+}
+.telefon {
+    color: #ec3824;
+    padding: 8px 12px;
+    border-radius: 12px;
+    border: 1px solid #ec3824;
+    margin: 20px 0;
+    display: inline-block;
+    transition: .2s ease-in;
+}
+.telefon:hover {
+    background: #ec3824;
+    color: white;
+}
+.sagkon>p {
+    line-height: 1.5 !important;
+}
+.socialnetwork {
+    margin-top: 30px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: flex;
+}
+.socialnetwork>li {
+    display: inline-block;
+    line-height: 1.6 !important;
+}
+.socialnetwork>li>a {
+    font-size: 22px;
+    padding: 0 8px;
+}
+.socialnetwork fa {
+    transition: 0.2s ease-in;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.socialnetwork a:hover {
+    color: #23527c;
+}

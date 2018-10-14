@@ -1,0 +1,407 @@
+#page-heading {
+    margin-top: 50px;
+}
+.wrapper {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.class-details {
+    padding: 45px 18px;
+    position: relative;
+}
+.flexbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.class-name {
+    width: 28%;
+}
+.class-name>h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 28.05px;
+    position: relative;
+    z-index: 2122;
+}
+h1,h2 {
+    line-height: 1.3 !important;
+}
+.class-icon {
+    position: absolute;
+    bottom: 0;
+    width: 10.3vw;
+    height: 90%;
+    background-size: contain;
+    left: 130px;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+.class-info {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.around {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+.middle {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.flexbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+ul.details {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+ul.details li {
+    color: white;
+    display: inline-block;
+}
+#page-heading[data-class='web'] ul.details>li {
+    color: white !important;
+}
+li {
+    line-height: 1.6 !important;
+}
+ul.details li h5 {
+    font-size: 13.09px;
+    font-weight: 400;
+}
+p {
+    line-height: 1.5 !important;
+}
+ul.details li p {
+    font-size: 14.96px;
+    margin-top: 7px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#page-heading .class-details .class-info a.download-attachment {
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 7px;
+    background: none;
+    font-family: "visby_cfbold";
+    padding: 10px 15px 10px 8px;
+    font-size: 14.96px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+.type {
+        display: inline-block;
+    margin-top: -2px;
+    background-color: #6e2e7a;
+    padding: 1px 2px;
+    border-radius: 3px;
+    font-size: 9.96px;
+}
+#classes {
+    padding: 60px 0;
+}
+.between {
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.side-menu {
+    display: inline-block;
+    width: 24%;
+    top: 0;
+    transition: 0.2s linear;
+    padding-top: 0;
+}
+.menu {
+    position: sticky;
+    top: 0;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 2.424px 4.373px 17px 0px rgba(0, 0, 0, 0.14);
+    padding: 35px;
+    font-weight: bold;
+    font-size: 18.07px;
+}
+a.apply {
+    background-color: #0086cd;
+    display: block;
+    padding: 12px 0;
+    text-align: center;
+}
+.button-blue {
+    background-color: #0086cd;
+    text-transform: none;
+    transition: .2s ease;
+}
+.button-style {
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 46px;
+    border: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+ul,ol {
+    list-style-type: none;
+}
+li {
+    line-height: 1.6 !important;
+}
+.menu ul li {
+    margin-bottom: 34px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+}
+.menu ul li a {
+    text-transform: capitalize;
+    position: relative;
+    cursor: pointer;
+}
+.menu li>a:hover {
+    border-bottom: 1px solid lightgray;
+}
+#classes .details {
+    display: inline-block;
+    width: 74.5%;
+    padding-top: 10px;
+    margin-left: auto;
+}
+#classes .details .reason {
+    margin-bottom: 142px;
+}
+#classes .details .reason h1 {
+    font-weight: bolder;
+    font-size: 28.05px;
+    line-height: 35px;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+    margin-bottom: 27px;
+}
+*, button, input {
+    outline: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+#classes .details .reason p {
+    font-size: 14.96px;
+    color: #6f6f6f;
+    -webkit-column-count: 2;
+    column-count: 2;
+    line-height: 23px;
+}
+#classes .details .attend {
+    padding-top: 20px;
+}
+#classes .details .attend .frame {
+    width:800px;
+    height: 331px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #393939;
+}
+#classes .details .attend .frame .detail {
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    width: 46%;
+    color: white;
+    padding: 47px 42px;
+}
+#classes .details .attend .frame .imgs {
+    display: inline-block;
+    width: 299.74px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+#classes .details .attend .frame .detail h1 {
+    font-weight: bolder;
+    font-size: 28.05px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+#classes .details .attend .frame .detail p {
+    font-family: "visby_cflight";
+    font-size: 14.96px;
+    margin-top: 38px;
+    line-height: 23px;
+}
+#classes .details .attend .frame .imgs img {
+    width: 144%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+#classes .details .purpose {
+    margin-top: 98px;
+    padding-top: 20px;
+}
+#classes .details .purpose h2 {
+    font-weight: bolder;
+    font-size: 28.05px;
+    margin-bottom: 32px;
+}
+
+#classes .heading {
+    font-weight: bolder;
+    font-size: 28.05px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    margin-bottom: 50px;
+}
+#classes .details .purpose .detail {
+    width: 35%;
+}
+#classes .details .purpose .detail p {
+    font-family: "visby_cflight";
+    font-size: 14.96px;
+    line-height: 20px;
+}
+#classes .details .purpose .icon {
+    width: 60%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+#classes .details .purpose .icon img {
+    width: 60%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+#classes .details .specialty {
+    margin-top: 96px;
+    padding-top: 20px;
+}
+#classes .heading {
+    font-weight: bolder;
+    font-size: 28.05px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    margin-bottom: 50px;
+}
+#classes .details .speciality .listt ul {
+    -webkit-column-count: 3;
+    column-count: 3;
+}
+.speciality .listt ul li .icon {
+    width: 24px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.speciality .listt ul li .icon img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+#classes .details .certificates {
+    margin-top: 96px;
+    padding-top: 20px;
+}
+#classes .heading {
+    font-weight: bolder;
+    font-size: 28.05px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    margin-bottom: 50px;
+}
+#classes .details .certificates ul li {
+    font-family: "visby_cflight";
+    margin-bottom: 30px;
+    font-size: 14.96px;
+}
+#classes .details .certificates .icon-certificates {
+    padding-left: 25px;
+    margin-top: -110px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#classes .details .certificates .icon-certificates > img {
+    max-width: 100%;
+}
+#classes .details .syllabus {
+    margin-top: 96px;
+    padding-top: 20px;
+}
+#classes .heading {
+    font-family: "visby_cfextra_bold";
+    font-size: 28.05px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    margin-bottom: 50px;
+}
+#classes .details .syllabus .lisst .program {
+    font-family: "visby_cfdemi_bold";
+    margin-bottom: 10px;
+}
+#classes .details .syllabus .lisst .program .program-title {
+    width: 44.44%;
+    font-size: 14.22px;
+    color: white;
+    background-color: #0086cd;
+    padding: 15px 20px;
+}
+#classes .details .syllabus .lisst .program .program-title .icon.icon-checked {
+    background-image: url(https://code.edu.az/public/images/icons/checked_white.png);
+}
+#classes .details .syllabus .lisst .program .program-title .icon {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+#classes .details .orders {
+    margin-top: 96px;
+    padding-top: 20px;
+}
+.flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+#classes .details .orders .lisstt > ul > li {
+    font-weight: 500;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+#classes .details .orders .lisstt > ul > li a {
+    font-size: 14.96px;
+    padding: 10px;
+    color: #6f6f6f;
+    background-color: #f3f3f3;
+    width: 100%;
+    display: block;
+}

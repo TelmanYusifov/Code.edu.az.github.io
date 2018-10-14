@@ -1,0 +1,131 @@
+.enyuxari {
+    height: 14px;
+    background-image: -webkit-linear-gradient( 0deg, #00a65a 0%, #0086cd 16%, #873996 37%, #ec3824 62%, #f0812b 82%, #ffc90a 100%);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style-type: none;
+}
+.info {
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+.info1 {
+    color: #585A58;
+    display: block;
+    font-family: "JosephinSans",sans-serif;
+    font-size: 12px;
+    width: 71%;
+    margin: auto;
+}
+.navs:hover .liic {
+    display: block;
+}
+.first {
+    width: 70%;
+    margin: auto;
+    margin-top: 43px;
+}
+.body {
+    width: 100%;
+}
+.logo {
+    display: inline-block;
+    width: 190px;
+}
+.naviqasiya>li {
+    float: left;
+}
+.navic {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #222;
+}
+.naviqasiya {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.list {
+    font-weight: bold;
+    color: white;
+}
+.list>a {
+    color: white;
+}
+
+.liic {
+    position: absolute;
+    border-radius: 7px;
+    background-color: #393939;
+    padding: 15px;
+    z-index: 99999;
+    display: none;
+}
+.ulic>ul>li>a {
+    display: block;
+}
+.ulic>ul>li {
+    color: #c6c6c6;
+    padding: 6px 8px;
+    white-space: nowrap;
+}
+.ulic>ul>li:hover {
+    background-color: #333333;
+}
+.search {
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+.search1 {
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+}
+.search2 {
+    background-color: #F2F2F2;
+    border: none;
+    outline: none;
+    margin-left: -50px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+}
+.abso {
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+.muraciet {
+    background-color: #0086CD;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-left: 20px;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 40px; 
+}
+.list:hover {
+    background-color: #393939 !important;
+}
+.muraciet:hover {
+    background-color: #0175b3;
+}
